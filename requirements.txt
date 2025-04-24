@@ -10,5 +10,4 @@ gunicorn
 pypdf
 geopy
 pandas
-re
 pydantic
