@@ -14,4 +14,4 @@ COPY . .
 # Expose the port Gradio uses
 EXPOSE 8001
 
-CMD ["gunicorn","-c","config.py","main:app"]
+CMD ["gunicorn","-c","config.py","chatbot:app"]
